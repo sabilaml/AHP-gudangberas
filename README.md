@@ -3,7 +3,7 @@ Kode program AHP untuk menentukan lokasi gudang beras di Jawa Timur
 Proyek ini berisi kode Python sederhana untuk menentukan lokasi terbaik gudang beras di Jawa Timur menggunakan metode AHP (Analytic Hierarchy Process).
 Kode ini menghitung bobot kriteria, uji konsistensi (CI & CR), bobot alternatif, dan menampilkan hasil akhir berupa skor total serta peringkat lokasi lengkap dengan visualisasi grafik.
 
-🎯 Tujuan
+-Tujuan
 
 Menentukan lokasi gudang beras paling optimal berdasarkan 4 kriteria utama:
 
@@ -25,9 +25,9 @@ Kediri
 
 Madiun
 
-⚙️ Teknologi yang Digunakan
+-Teknologi yang Digunakan
 
-Python 3.x
+Python 313
 
 NumPy → untuk perhitungan matriks
 
@@ -35,7 +35,7 @@ Pandas → untuk membuat dan menampilkan tabel hasil
 
 Matplotlib → untuk membuat grafik bobot dan ranking
 
-🧮 Cara Menjalankan Program
+- Cara Menjalankan Program
 1. Pastikan Python sudah terinstal
 
 Cek di terminal atau cmd:
@@ -70,11 +70,11 @@ Grafik Bobot Kriteria
 
 Grafik Ranking Lokasi Gudang
 
-📊 Penjelasan Singkat Output
+- Penjelasan Singkat Output
 Bagian	Keterangan
 Bobot Kriteria	Menunjukkan tingkat kepentingan tiap faktor (Transportasi, Tenaga Kerja, dll).
 Uji Konsistensi (CR)	Digunakan untuk mengecek apakah hasil perbandingan logis (CR harus < 0.1 agar konsisten).
 Skor Akhir & Ranking	Menunjukkan lokasi terbaik berdasarkan hasil keseluruhan bobot dan prioritas.
 
-📈 Contoh hasil akhir (berdasarkan data di kode ini):
+- Contoh hasil akhir (berdasarkan data di kode ini):
 Lokasi terbaik untuk gudang beras adalah Lamongan, dengan skor tertinggi 0.557892, dan nilai konsistensi CR = 0.043876 (konsisten).
